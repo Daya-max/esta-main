@@ -171,15 +171,22 @@
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
                                         <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
                                             title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">awitado</a>
+                                            data-bs-content="Popover body content is set in this attribute.">Guilty</a>
                                         <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
                                             title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">sp
-                                            awitado</a>
+                                            data-bs-content="Popover body content is set in this attribute.">Abandoned</a>
                                         <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
                                             title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">sp hiper
-                                            awitado</a>
+                                            data-bs-content="Popover body content is set in this attribute.">Despair</a>
+                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
+                                            title="Popover title"
+                                            data-bs-content="Popover body content is set in this attribute.">Depressed</a>
+                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
+                                            title="Popover title"
+                                            data-bs-content="Popover body content is set in this attribute.">Lonely</a>
+                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
+                                            title="Popover title"
+                                            data-bs-content="Popover body content is set in this attribute.">Bored</a>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
