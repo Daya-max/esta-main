@@ -189,7 +189,7 @@
                                             data-bs-content="Popover body content is set in this attribute.">Bored</a>
                                         <hr>
                                     </div>
-                                    <div class="mb-3"> <!--hola-->
+                                    <div class="mb-3"> <!--holaaa-->
                                         <h2 class="fs-5">here you can expresive how do you feeling</h2>
                                         <textarea class="form-control" id="message-text"></textarea>
                                     </div>
