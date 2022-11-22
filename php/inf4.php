@@ -117,15 +117,16 @@
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
                                         <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
                                             title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">asutadito</a>
+                                            data-bs-content="Popover body content is set in this attribute.">Startled</a>
                                         <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
                                             title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">sp
-                                            asutadito</a>
+                                            data-bs-content="Popover body content is set in this attribute.">Confused</a>
                                         <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
                                             title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">sp hiper
-                                            asistadito</a>
+                                            data-bs-content="Popover body content is set in this attribute.">Amazed</a>
+                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
+                                            title="Popover title"
+                                            data-bs-content="Popover body content is set in this attribute.">Excited</a>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
