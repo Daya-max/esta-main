@@ -49,31 +49,24 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-5">we will talk about how do you feeling</h2>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Joyful</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Interested</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Proud</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Accepted</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Optimistic</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Intimate</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Peaceful</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Powerful</a>
-
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Playful</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Content</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Interested</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Pround</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Accepted</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Powerful</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Peaceful</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Trusting</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Optimistic</button>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
@@ -115,18 +108,19 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Startled</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Confused</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Amazed</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Excited</a>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Scared</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Anxious</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Insecure</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Weak</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Rejected</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Threatened</button>
+
                                         <hr>
                                     </div>
                                     <div class="mb-3">
@@ -169,24 +163,18 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Guilty</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Abandoned</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Despair</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Depressed</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Lonely</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">Bored</a>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Lonely</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Vulnerable</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Despair</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Guilty</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Depressed</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Hurt</button>
                                         <hr>
                                     </div>
                                     <div class="mb-3"> <!--holaaa-->
@@ -228,17 +216,22 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">here you can chose the branch of your emotions</h2>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">emputado</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">sp
-                                            emputado</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">sp hiper
-                                            emputado</a>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Let down</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Humiliated</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Bitter</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Mad</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Aggressive</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Frustrated</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Distant</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Critical</button>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
@@ -281,17 +274,14 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">iugh</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">sp
-                                            wakala</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">sp hiper
-                                            wakala guaa</a>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Disapproving</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Disappointed</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Awful</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Repelled</button>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
@@ -334,17 +324,14 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">ALA
-                                            WAKALLL</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">DIOSMIOOOO</a>
-                                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                            title="Popover title"
-                                            data-bs-content="Popover body content is set in this attribute.">LO VEO Y NO
-                                            LO CREO</a>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Startled</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Confused</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Amazed</button>
+                                        <button type="button" class="btn btn-outline-info" 
+                                        data-bs-toggle="button">Excited</button>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
@@ -379,13 +366,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active center">
-                    <img src="../images/perrito wonito.jpg" class="d-block" alt="..." width="295" height="200">
+                    <img src="images/perrito wonito.jpg" class="d-block" alt="..." width="295" height="200">
                 </div>
                 <div class="carousel-item">
-                    <img src="../images/perrito2.jpg" class="d-block " alt="..." width="295" height="200">
+                    <img src="images/perrito2.jpg" class="d-block " alt="..." width="295" height="200">
                 </div>
                 <div class="carousel-item">
-                    <img src="../images/perritos-motivadores.png" class="d-block " alt="..." width="295" height="200">
+                    <img src="images/perritos-motivadores.png" class="d-block " alt="..." width="295" height="200">
                 </div>
                 <div class="carousel-item">
                     <img src="images/perritos-motivadores2.png" class="d-block " alt="..." width="295" height="200">
@@ -412,3 +399,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
+
+</html>

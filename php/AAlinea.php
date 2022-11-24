@@ -20,20 +20,20 @@
         <div class="icon__menu">
             <i class="fa-solid fa-bars" id="btn_open"></i>
         </div>
-        <div class="container b-block center $zindex-fixed:-1030;">
-            <button type="button" class="btn btn-outline-danger btn-sm" id="liveToastBtn">emergency help</button>
+        <div class="container" style="text-align: right">
+            <button type=" button" class="btn btn-outline-danger btn-sm " id="liveToastBtn">SOS</button>
         </div>
         <div class="toast-container position-fixed bottom-0 end-0 p-3">
-            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div id="liveToast" class="toast " role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="toast-header">
-                    <img width="20px" src="../images/1.png" class="rounded me-2" alt="...">
+                    <img width="20px" src="images/1.png" class="rounded me-2" alt="...">
                     <strong class="me-auto">SafeMe</strong>
                     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
                 <div class="toast-body">
-                    Tranquil@ <br>
-                    necesitas ayuda?<a href="#" class="link-info">01800 911 2000</a> llama para que te aude un
-                    especialista
+                    Are you going through a crisis? <br>
+                    You are not alone, there is help available for you by calling <a href="tel:8009112000"
+                        role="link">800 911 2000</a>
                 </div>
             </div>
         </div>
