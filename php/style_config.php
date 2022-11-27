@@ -41,11 +41,6 @@
 
     <div class="menu__side" id="menu_side">
 
-        <div class="name__page">
-            <i class="fa-solid fa-seedling"></i>
-            <h4> SafeMe</h4>
-        </div>
-
         <div class="options__menu">
 
             <a href="../Amenu.php"  title="Home">

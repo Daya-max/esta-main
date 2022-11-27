@@ -41,11 +41,6 @@
 
     <div class="menu__side" id="menu_side">
 
-        <div class="name__page">
-            <i class="fa-solid fa-seedling"></i>
-            <h4> SafeMe</h4>
-        </div>
-
         <div class="options__menu">
 
             <a href="Amenu.php" class="selected" title="Home">
@@ -88,10 +83,7 @@
                     <h4>Configuration</h4>
                 </div>
             </a>
-            <br>
-            <br>
-            <br>
-            <br>
+           
             <a href="php/salir.php">
                 <div class="option">
                     <i class="fa-solid fa-power-off"></i>

@@ -20,10 +20,10 @@
 							<input type="text" class="form-control input-sm" id="nombre" name="">
 							<label>Apellido</label>
 							<input type="text" class="form-control input-sm" id="apellido" name="">
-							<label>Usuario</label>
-							<input type="text" class="form-control input-sm" id="usuario" name="">
+							<label>Email</label>
+							<input type="email" class="form-control input-sm" id="usuario" name="">
 							<label>Password</label>
-							<input type="text" class="form-control input-sm" id="password" name="">
+							<input type="password" class="form-control input-sm" id="password" name="">
 							<p></p>
 							<span class="btn btn-primary" id="registrarNuevo">Registrar</span>
 						</form>

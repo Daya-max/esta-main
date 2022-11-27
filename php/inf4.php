@@ -19,7 +19,7 @@
     <div class="container text-center">
         <img src="images/mapache_feli.png" class="rounded mx-auto d-block " width="240" class="my-2" alt="...">
         <br>
-        <h2 class="border border-2-dark" class="d-inline-block">how you are feeling today</h2>
+        <h2 class=" border-5-dark" class="d-inline-block">How you are feeling today</h2>
     </div>
 
 
@@ -352,7 +352,7 @@
         </div>
     </div>
     <main style=" margin-left: 850px;">
-        <!-- imagenes motivadoras para tener un dia bn bonito -->
+        <!--imagenes motivadoras para tener un dia bn bonito -->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -388,7 +388,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </div> 
     </main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
