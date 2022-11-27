@@ -17,7 +17,7 @@
 
 <body id="body">
     <header>
-        <div class="icon__menu">
+        <div class="icon__menu" style="text-align: right">
             <i class="fa-solid fa-bars" id="btn_open"></i>
         </div>
         <div class="container" style="text-align: right">
@@ -40,8 +40,6 @@
     </header>
 
     <div class="menu__side" id="menu_side">
-
-        
 
         <div class="options__menu">
 
@@ -85,10 +83,7 @@
                     <h4>Configuration</h4>
                 </div>
             </a>
-            <br>
-            <br>
-            <br>
-            <br>
+          
             <a href="salir.php">
                 <div class="option">
                     <i class="fa-solid fa-power-off"></i>

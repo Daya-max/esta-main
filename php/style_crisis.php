@@ -85,10 +85,7 @@
                     <h4>Configuration</h4>
                 </div>
             </a>
-            <br>
-            <br>
-            <br>
-            <br>
+         
             <a href="salir.php">
                 <div class="option">
                     <i class="fa-solid fa-power-off"></i>

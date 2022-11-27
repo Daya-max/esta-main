@@ -14,10 +14,12 @@
     <script src="https://kit.fontawesome.com/92927bfbd1.js" crossorigin="anonymous"></script>
 
 </head>
-    <?php require('style_log.php')?>
+<?php require('style_log.php') ?>
 </body>
-    <?php require('style_log.php')?>
+<?php require('style_log.php') ?>
 <main>
+    <br>
+    <br>
     <br>
     <br>
     <h1 class="title">FEEDBACK</h1>
