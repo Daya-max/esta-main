@@ -13,12 +13,12 @@
     <script src="https://kit.fontawesome.com/92927bfbd1.js" crossorigin="anonymous"></script>
 
 </head>
-    <?php require('style_crisis.php')?>
+    <?php require('style_config.php')?>
 </body>
 
 <main>
 
-    <?php require('') ?>
+    <?php require('inf6.php') ?>
 
 </main>
 <script src="../js/boton.js"></script>

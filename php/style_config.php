@@ -77,10 +77,10 @@
                 </div>
             </a>
 
-            <a href="Bconfiguracion.php" class="selected" title="Configuration">
+            <a href="Bconfiguracion.php" class="selected" title="Customer Service">
                 <div class="option">
                     <i class="fa-solid fa-gear"></i>
-                    <h4>Configuration</h4>
+                    <h4>Customer Service</h4>
                 </div>
             </a>
           
