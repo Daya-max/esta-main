@@ -31,7 +31,7 @@
         the
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        terms and conditions
+          terms and conditions
         </button>
 
         <!-- Modal -->
@@ -40,15 +40,26 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Terms and conditions</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                ...
+                By registering and/or using the Services, enabling push notifications, accessing, browsing and/or using
+                the Platform, the User accepts the delivery of advertising and promotions, and constitutes unequivocal
+                and immediate, tacit consent regarding the use of the Platform, under the use of these Terms and
+                Conditions and Mexican law.
+                <br> <br>
+                Likewise, the User acknowledges having read and accepted the Privacy Notice applicable to the processing
+                of personal data, located within the Platform.
+                <br> <br>
+                SafeMe does not and will not offer medical or clinical advice and is not designed to be used in crisis
+                situations.
+                <br><br>
+                In the event of a crisis, please call your local crisis hotline or 911.
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                
               </div>
             </div>
           </div>

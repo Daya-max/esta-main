@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<link rel="stylesheet" href="css/estilos.css">
 <head>
 	<title>Registro</title>
 	<?php require_once "scripts.php"; ?>
@@ -16,9 +16,9 @@
 					<div class="panel panel-heading">Registro de usuario</div>
 					<div class="panel panel-body">
 						<form id="frmRegistro">
-							<label>Nombre</label>
+							<label>Name</label>
 							<input type="text" class="form-control input-sm" id="nombre" name="">
-							<label>Apellido</label>
+							<label>Last name</label>
 							<input type="text" class="form-control input-sm" id="apellido" name="">
 							<label>Email</label>
 							<input type="email" class="form-control input-sm" id="usuario" name="">
