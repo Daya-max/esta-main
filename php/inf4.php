@@ -29,66 +29,67 @@
             <div class="col">
                 <div id="mapachito_feli">
                     <div class="container text-center">
+
                         <button type="button" class="btn outline" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                            data-bs-whatever="@mdo">
+                            data-bs-whatever="@mdo" name="feli">
                             <div class="col">
                                 <img src="images/mapache_feli.png" class="rounded mx-auto d-block " width="120"
                                     class="my-2" alt="...">
                             </div>
                         </button>
+                        <form action="php/mapaches.php" method="post">
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">we will talk about how
+                                                do
+                                                you feeling</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
 
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">we will talk about how do
-                                            you feeling</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h2 class="fs-5">we will talk about how do you feeling</h2>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Playful</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Content</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Interested</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Pround</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Accepted</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Powerful</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Peaceful</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Trusting</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Optimistic</button>
-                                        <hr>
-                                    </div>
-                                    <div class="mb-3">
-                                        <h2 class="fs-5">here you can expresive how do you feeling</h2>
-                                        <textarea class="form-control" id="message-text"></textarea>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Cancelar</button>
-                                        <button type="button" class="btn btn-primary">Aceptar</button>
+
+                                            <h2 class="fs-5">we will talk about how do you feeling</h2>
+                                            <select name="feli-select" id="" class="btn btn-outline-info">
+                                                <option value="0"></option>
+                                                <option value="1">Playful</option>
+                                                <option value="2">Content</option>
+                                                <option value="3">Interested</option>
+                                                <option value="4">Pround</option>
+                                                <option value="5">Accepted</option>
+                                                <option value="6">Powerful</option>
+                                                <option value="7">Peaceful</option>
+                                                <option value="8">Trusting</option>
+                                                <option value="9">Optimistic</option>
+
+                                            </select>
+                                            <hr>
+                                        </div>
+                                        <div class="mb-3">
+                                            <h2 class="fs-5">here you can expresive how do you feeling</h2>
+                                            <input type="text" class="form-control" id="message-text" name="text_feli">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-primary"
+                                                name="feli-btn">Aceptar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
+            </form>
             <!-- mapache asustadito -->
             <div class="col">
                 <div id="mapache_asustadito">
                     <div class="container text-center">
-                        <button type="button" class=" btn outline" data-bs-toggle="modal"
+                        <button onclick="save_color()" type="button" class=" btn outline" data-bs-toggle="modal"
                             data-bs-target="#exampleModalAs" data-bs-whatever="@mdo">
                             <div class="col 1">
                                 <img src="images/mapache_miedo.PNG" class="rounded mx-auto d-block " width="120"
@@ -143,7 +144,7 @@
             <div class="col">
                 <div id="mapache_tite">
                     <div class="container text-center">
-                        <button type="button" class=" btn outline" data-bs-toggle="modal"
+                        <button onclick="save_color()" type="button" class=" btn outline" data-bs-toggle="modal"
                             data-bs-target="#exampleModalTr" data-bs-whatever="@mdo">
                             <div class="col 1">
                                 <img src="images/mapache_tite.png" class="rounded mx-auto d-block " width="120"
@@ -177,7 +178,8 @@
                                             data-bs-toggle="button">Hurt</button>
                                         <hr>
                                     </div>
-                                    <div class="mb-3"> <!--holaaa-->
+                                    <div class="mb-3">
+                                        <!--holaaa-->
                                         <h2 class="fs-5">here you can expresive how do you feeling</h2>
                                         <textarea class="form-control" id="message-text"></textarea>
                                     </div>
@@ -196,7 +198,7 @@
             <div class="col">
                 <div id="mapache_nojao">
                     <div class="container text-center">
-                        <button type="button" class="btn outline" data-bs-toggle="modal"
+                        <button onclick="save_color()" type="button" class="btn outline" data-bs-toggle="modal"
                             data-bs-target="#exampleModalEn" data-bs-whatever="@mdo">
                             <div class="col 1">
                                 <img src="images/mapache_enojado.PNG" class="rounded mx-auto d-block " width="120"
@@ -216,22 +218,22 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">here you can chose the branch of your emotions</h2>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Let down</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Humiliated</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Bitter</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Mad</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Aggressive</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Frustrated</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Distant</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Critical</button>
+                                        <button type="button" class="btn btn-outline-info" data-bs-toggle="button">Let
+                                            down</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Humiliated</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Bitter</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Mad</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Aggressive</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Frustrated</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Distant</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Critical</button>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
@@ -254,7 +256,7 @@
             <div class="col">
                 <div id="mapache_desagrado">
                     <div class="container text-center">
-                        <button type="button" class=" btn outline" data-bs-toggle="modal"
+                        <button onclick="save_color()" type="button" class=" btn outline" data-bs-toggle="modal"
                             data-bs-target="#exampleModalDe" data-bs-whatever="@mdo">
                             <div class="col 1">
                                 <img src="images/mapache_desagrado.PNG" class="rounded mx-auto d-block " width="120"
@@ -274,14 +276,14 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Disapproving</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Disappointed</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Awful</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Repelled</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Disapproving</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Disappointed</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Awful</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Repelled</button>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
@@ -304,7 +306,7 @@
             <div class="col">
                 <div id="mapache_sorpresa">
                     <div class="container text-center">
-                        <button type="button" class="btn outline" data-bs-toggle="modal"
+                        <button onclick="save_color()" type="button" class="btn outline" data-bs-toggle="modal"
                             data-bs-target="#exampleModalSo" data-bs-whatever="@mdo">
                             <div class="col 1">
                                 <img src="images/mapache_sorprendido.PNG" class="rounded mx-auto d-block " class="mt-5"
@@ -324,14 +326,14 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Startled</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Confused</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Amazed</button>
-                                        <button type="button" class="btn btn-outline-info" 
-                                        data-bs-toggle="button">Excited</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Startled</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Confused</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Amazed</button>
+                                        <button type="button" class="btn btn-outline-info"
+                                            data-bs-toggle="button">Excited</button>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
@@ -341,7 +343,7 @@
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-bs-dismiss="modal">Cancelar</button>
-                                        <button type="button" class="btn btn-primary">Aceptar</button>
+                                        <button type="button" onclick="save()" class="btn btn-primary">Aceptar</button>
                                     </div>
                                 </div>
                             </div>
@@ -351,6 +353,17 @@
             </div>
         </div>
     </div>
+    <script>
+        function save_color() {
+
+        }
+        function save_branches() {
+
+        }
+        function save() {
+
+        }
+    </script>
     <main style=" margin-left: 850px;">
         <!--imagenes motivadoras para tener un dia bn bonito ¿
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">

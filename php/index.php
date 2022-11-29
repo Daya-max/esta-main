@@ -70,7 +70,7 @@ $events = $req->fetchAll();
 			<form class="form-horizontal" method="POST" action="addEvent.php">
 			
 			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<button type="submit" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				<h4 class="modal-title" id="myModalLabel">Agregar Evento</h4>
 			  </div>
 			  <div class="modal-body">
@@ -112,7 +112,6 @@ $events = $req->fetchAll();
 				
 			  </div>
 			  <div class="modal-footer">
-				<button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
 				<button type="submit" class="btn btn-primary">Guardar</button>
 			  </div>
 			</form>
@@ -168,7 +167,7 @@ $events = $req->fetchAll();
 				
 			  </div>
 			  <div class="modal-footer">
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+				<button type="submit" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
 				<button type="submit" class="btn btn-primary">Guardar</button>
 			  </div>
 			</form>
