@@ -19,7 +19,7 @@
     <div class="container text-center">
         <img src="images/mapache_feli.png" class="rounded mx-auto d-block " width="240" class="my-2" alt="...">
         <br>
-        <h2 class=" border-5-dark" class="d-inline-block">How you are feeling today</h2>
+        <h2 class=" border-5-dark" class="d-inline-block">How do you feel today?</h2>
     </div>
 
 
@@ -89,69 +89,68 @@
             <div class="col">
                 <div id="mapache_asustadito">
                     <div class="container text-center">
-                        <button onclick="save_color()" type="button" class=" btn outline" data-bs-toggle="modal"
-                            data-bs-target="#exampleModalAs" data-bs-whatever="@mdo">
+                        <button type="button" class=" btn outline" data-bs-toggle="modal"
+                            data-bs-target="#exampleModalAs" data-bs-whatever="@mdo" name="scared">
                             <div class="col 1">
                                 <img src="images/mapache_miedo.PNG" class="rounded mx-auto d-block " width="120"
                                     class="my-2" alt="...">
                             </div>
                         </button>
+                        <form action="php/mapaches.php" method="post">
+                            <div class="modal fade" id="exampleModalAs" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-6" id="exampleModalLabel2">we will talk about how
+                                                do
+                                                you feeling</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h2 class="fs-6">we will talk about how do you feeling</h2>
+                                            <select name="scared-select" id="" class="btn btn-outline-info">
+                                                <option value="0"></option>
+                                                <option value="1">Scared</option>
+                                                <option value="2">Anxious</option>
+                                                <option value="3">Insecure</option>
+                                                <option value="4">Weak</option>
+                                                <option value="5">Rejected</option>
+                                                <option value="6">Threatened</option>
 
-                        <div class="modal fade" id="exampleModalAs" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-6" id="exampleModalLabel2">we will talk about how do
-                                            you feeling</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h2 class="fs-6">we will talk about how do you feeling</h2>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Scared</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Anxious</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Insecure</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Weak</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Rejected</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Threatened</button>
+                                            </select>
 
-                                        <hr>
-                                    </div>
-                                    <div class="mb-3">
-                                        <h2 class="fs-5">here you can expresive how do you feeling</h2>
-                                        <textarea class="form-control" id="message-text"></textarea>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Cancelar</button>
-                                        <button type="button" class="btn btn-primary">Aceptar</button>
+                                            <hr>
+                                        </div>
+                                        <div class="mb-3">
+                                            <h2 class="fs-5">here you can expresive how do you feeling</h2>
+                                            <input class="form-control" id="message-text" name="text_scared"></textarea>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-primary" name="scared-btn">Aceptar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
-
             <!-- mapache tite -->
             <div class="col">
                 <div id="mapache_tite">
                     <div class="container text-center">
-                        <button onclick="save_color()" type="button" class=" btn outline" data-bs-toggle="modal"
+                        <button type="button" class=" btn outline" data-bs-toggle="modal"
                             data-bs-target="#exampleModalTr" data-bs-whatever="@mdo">
                             <div class="col 1">
                                 <img src="images/mapache_tite.png" class="rounded mx-auto d-block " width="120"
                                     class="my-2" alt="...">
                             </div>
                         </button>
-
+                        <form action="php/mapaches.php" method="post">
                         <div class="modal fade" id="exampleModalTr" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog">
@@ -164,30 +163,28 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Lonely</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Vulnerable</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Despair</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Guilty</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Depressed</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Hurt</button>
+                                        <select name="tite-select" id="">
+                                                <option value="0"></option>
+                                                <option value="1">Lonely</option>
+                                                <option value="2">Vulnerable</option>
+                                                <option value="3">Despair</option>
+                                                <option value="4">Guilty</option>
+                                                <option value="5">Depressed</option>
+                                                <option value="6">Hurt</option>
+                                        </select>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
                                         <!--holaaa-->
                                         <h2 class="fs-5">here you can expresive how do you feeling</h2>
-                                        <textarea class="form-control" id="message-text"></textarea>
+                                        <input type="text" class="form-control" id="message-text" name="text_tite"></textarea>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-bs-dismiss="modal">Cancelar</button>
-                                        <button type="button" class="btn btn-primary">Aceptar</button>
+                                        <button type="submit" class="btn btn-primary" name="tite-btn">Aceptar</button>
                                     </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -198,14 +195,14 @@
             <div class="col">
                 <div id="mapache_nojao">
                     <div class="container text-center">
-                        <button onclick="save_color()" type="button" class="btn outline" data-bs-toggle="modal"
+                        <button type="button" class="btn outline" data-bs-toggle="modal"
                             data-bs-target="#exampleModalEn" data-bs-whatever="@mdo">
                             <div class="col 1">
                                 <img src="images/mapache_enojado.PNG" class="rounded mx-auto d-block " width="120"
                                     class="my-2" alt="...">
                             </div>
                         </button>
-
+                        <form action="php/mapaches.php" method="POST">
                         <div class="modal fade" id="exampleModalEn" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog">
@@ -218,32 +215,27 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">here you can chose the branch of your emotions</h2>
-                                        <button type="button" class="btn btn-outline-info" data-bs-toggle="button">Let
-                                            down</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Humiliated</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Bitter</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Mad</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Aggressive</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Frustrated</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Distant</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Critical</button>
+                                        <select name="nojao-select" id="">
+                                                <option value="0"></option>
+                                                <option value="1">Humiliated</option>
+                                                <option value="2">Bitter</option>
+                                                <option value="3">Mad</option>
+                                                <option value="4">Aggressive</option>
+                                                <option value="5">Frustrated</option>
+                                                <option value="6">Distant</option>
+                                                <option value="6">Critical</option>
+                                        </select>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
                                         <h2 class="fs-5">here you can expresive how do you feeling</h2>
-                                        <textarea class="form-control" id="message-text"></textarea>
+                                        <input type="text" name="text_nojao" class="form-control" id="message-text">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-bs-dismiss="modal">Cancelar</button>
-                                        <button type="button" class="btn btn-primary">Enviar</button>
+                                        <button type="submit" class="btn btn-primary" name="nojao-btn">Enviar</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -251,19 +243,19 @@
                     </div>
                 </div>
             </div>
-
+            
             <!-- mapache con asquito -->
             <div class="col">
                 <div id="mapache_desagrado">
                     <div class="container text-center">
-                        <button onclick="save_color()" type="button" class=" btn outline" data-bs-toggle="modal"
+                        <button type="button" class=" btn outline" data-bs-toggle="modal"
                             data-bs-target="#exampleModalDe" data-bs-whatever="@mdo">
                             <div class="col 1">
                                 <img src="images/mapache_desagrado.PNG" class="rounded mx-auto d-block " width="120"
                                     class="my-2" alt="...">
                             </div>
                         </button>
-
+                        <form action="php/mapaches.php" method="POST">
                         <div class="modal fade" id="exampleModalDe" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog">
@@ -276,24 +268,23 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Disapproving</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Disappointed</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Awful</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Repelled</button>
+                                        <select name="desagrado-select" id="">
+                                                <option value="0"></option>
+                                                <option value="1">Disapproving</option>
+                                                <option value="2">Disappointed</option>
+                                                <option value="3">Awful</option>
+                                                <option value="4">Repelled</option>      
+                                        </select>
                                         <hr>
                                     </div>
                                     <div class="mb-3">
                                         <h2 class="fs-5">here you can expresive how do you feeling</h2>
-                                        <textarea class="form-control" id="message-text"></textarea>
+                                        <input class="form-control" name="text_desagrado" id="message-text">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-bs-dismiss="modal">Cancelar</button>
-                                        <button type="button" class="btn btn-primary">Aceptar</button>
+                                        <button type="submit" class="btn btn-primary" name="desagrado-btn">Aceptar</button>
                                     </div>
                                 </div>
                             </div>
@@ -301,19 +292,19 @@
                     </div>
                 </div>
             </div>
-
+            </form>
             <!-- mapache sorprendido -->
             <div class="col">
                 <div id="mapache_sorpresa">
                     <div class="container text-center">
-                        <button onclick="save_color()" type="button" class="btn outline" data-bs-toggle="modal"
+                        <button type="button" class="btn outline" data-bs-toggle="modal"
                             data-bs-target="#exampleModalSo" data-bs-whatever="@mdo">
                             <div class="col 1">
                                 <img src="images/mapache_sorprendido.PNG" class="rounded mx-auto d-block " class="mt-5"
                                     width="120" class="my-2" alt="...">
                             </div>
                         </button>
-
+                        <form action="php/mapaches.php" method="POST">
                         <div class="modal fade" id="exampleModalSo" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog">
@@ -326,24 +317,24 @@
                                     </div>
                                     <div class="modal-body">
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Startled</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Confused</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Amazed</button>
-                                        <button type="button" class="btn btn-outline-info"
-                                            data-bs-toggle="button">Excited</button>
+                                        <select name="sorpresa-select" id="">
+                                                <option value="0"></option>
+                                                <option value="1">Startled</option>
+                                                <option value="2">Confused</option>
+                                                <option value="3">Amazed</option>
+                                                <option value="4">Excited</option>      
+                                        </select>
+                                        
                                         <hr>
                                     </div>
                                     <div class="mb-3">
                                         <h2 class="fs-5">here you can expresive how do you feeling</h2>
-                                        <textarea class="form-control" id="message-text"></textarea>
+                                        <input name="text_sorpresa" class="form-control" id="message-text">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-bs-dismiss="modal">Cancelar</button>
-                                        <button type="button" onclick="save()" class="btn btn-primary">Aceptar</button>
+                                        <button type="submit" name="sorpresa-btn" class="btn btn-primary">Aceptar</button>
                                     </div>
                                 </div>
                             </div>
@@ -353,6 +344,7 @@
             </div>
         </div>
     </div>
+    </form>
     <script>
         function save_color() {
 

@@ -1,3 +1,16 @@
+<?php
+//include('conexion.php');
+//session_start();
+//$user = $_POST['user'];
+//$get_user = "SELECT * from usuarios where usuario ='$user'"; 
+//$run_user = mysqli_query($conexion,$get_user);
+//$row = mysqli_fetch_array($run_user);
+
+//$user_id=$row['id'];
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"

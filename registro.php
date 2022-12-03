@@ -45,16 +45,16 @@
 		$('#registrarNuevo').click(function () {
 
 			if ($('#nombre').val() == "") {
-				alertify.alert("Debes agregar el nombre");
+				alertify.alert("you must add name ");
 				return false;
 			} else if ($('#apellido').val() == "") {
-				alertify.alert("Debes agregar el apellido");
+				alertify.alert("you must add lastname");
 				return false;
 			} else if ($('#usuario').val() == "") {
-				alertify.alert("Debes agregar el usuario");
+				alertify.alert("you must add user");
 				return false;
 			} else if ($('#password').val() == "") {
-				alertify.alert("Debes agregar el password");
+				alertify.alert("You must add password");
 				return false;
 			}
 
@@ -70,13 +70,13 @@
 				success: function (r) {
 
 					if (r == 2) {
-						alertify.alert("Este usuario ya existe, prueba con otro :)");
+						alertify.alert("This user already exists, try another one");
 					}
 					else if (r == 1) {
 						$('#frmRegistro')[0].reset();
-						alertify.success("Agregado con exito");
+						alertify.success("Successfully added");
 					} else {
-						alertify.error("Fallo al agregar");
+						alertify.error("Failure to add");
 					}
 				}
 			});
