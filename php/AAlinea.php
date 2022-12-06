@@ -1,12 +1,12 @@
 <?php
-//include('conexion.php');
-//session_start();
-//$user = $_POST['user'];
-//$get_user = "SELECT * from usuarios where usuario ='$user'"; 
-//$run_user = mysqli_query($conexion,$get_user);
-//$row = mysqli_fetch_array($run_user);
+include('conexion.php');
+session_start();
+$user = $_SESSION['user'];
+$get_user = "SELECT * from usuarios where usuario ='$user'"; 
+$run_user = mysqli_query($con,$get_user);
+$row = mysqli_fetch_array($run_user);
 
-//$user_id=$row['id'];
+$user_id=$row['id'];
 
 ?>
 
@@ -63,7 +63,7 @@
                 </div>
             </a>
 
-            <a href="php/bitacora.php" title="Log">
+            <a href="php/bitacora.php?id=<?php echo $user_id?>" title="Log">
                 <div class="option">
                     <i class="fa-regular fa-calendar-days"></i>
                     <h4>Log</h4>
@@ -83,14 +83,14 @@
                     <h4>Crisis</h4>
                 </div>
             </a>
-            <a href="php/Bperfil.php" title="Profile">
+            <a href="php/Bperfil.php?id=<?php echo $user_id?>" title="Profile">
                 <div class="option">
                     <i class="fa-solid fa-user-gear"></i>
                     <h4>Profile</h4>
                 </div>
             </a>
 
-            <a href="php/Bconfiguracion.php" title="Customer Service">
+            <a href="php/Bconfiguracion.php?id=<?php echo $user_id?>" title="Customer Service">
                 <div class="option">
                     <i class="fa-solid fa-gear"></i>
                     <h4>Customer Service</h4>

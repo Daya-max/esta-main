@@ -1,3 +1,17 @@
+
+<?php
+include('conexion.php');
+session_start();
+$user = $_SESSION['user'];
+$get_user = "SELECT * from usuarios where usuario ='$user'"; 
+$run_user = mysqli_query($con,$get_user);
+$row = mysqli_fetch_array($run_user);
+
+$user_id=$row['id'];
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -52,13 +66,12 @@
                 </div>
             </a>
 
-            <a href="bitacora.php" title="Log">
+            <a href="php/bitacora.php?id=<?php echo $user_id?>" title="Log">
                 <div class="option">
                     <i class="fa-regular fa-calendar-days"></i>
                     <h4>Log</h4>
                 </div>
             </a>
-
             <a href="Clinea de ayuda.php" title="Helpline">
                 <div class="option">
                     <i class="fa-solid fa-hand-holding-medical"></i>
@@ -72,12 +85,13 @@
                     <h4>Crisis</h4>
                 </div>
             </a>
-            <a href="Bperfil.php" title="Profile">
+            <a href="Bperfil.php?id=<?php echo $user_id?>" title="Profile">
                 <div class="option">
                     <i class="fa-solid fa-user-gear"></i>
                     <h4>Profile</h4>
                 </div>
             </a>
+
 
             <a href="Bconfiguracion.php"  title="Customer Service">
                 <div class="option">

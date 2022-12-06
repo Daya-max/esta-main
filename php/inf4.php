@@ -55,15 +55,15 @@
                                             <h2 class="fs-5">we will talk about how do you feeling</h2>
                                             <select name="feli-select" id="" class="btn btn-outline-info">
                                                 <option value="0"></option>
-                                                <option value="1">Playful</option>
-                                                <option value="2">Content</option>
-                                                <option value="3">Interested</option>
-                                                <option value="4">Pround</option>
-                                                <option value="5">Accepted</option>
-                                                <option value="6">Powerful</option>
-                                                <option value="7">Peaceful</option>
-                                                <option value="8">Trusting</option>
-                                                <option value="9">Optimistic</option>
+                                                <option value="Playful">Playful</option>
+                                                <option value="Content">Content</option>
+                                                <option value="Interested">Interested</option>
+                                                <option value="Pround">Pround</option>
+                                                <option value="Accepted">Accepted</option>
+                                                <option value="Powerful">Powerful</option>
+                                                <option value="Peaceful">Peaceful</option>
+                                                <option value="Trusting">Trusting</option>
+                                                <option value="Optimistic">Optimistic</option>
 
                                             </select>
                                             <hr>
@@ -112,12 +112,12 @@
                                             <h2 class="fs-6">we will talk about how do you feeling</h2>
                                             <select name="scared-select" id="" class="btn btn-outline-info">
                                                 <option value="0"></option>
-                                                <option value="1">Scared</option>
-                                                <option value="2">Anxious</option>
-                                                <option value="3">Insecure</option>
-                                                <option value="4">Weak</option>
-                                                <option value="5">Rejected</option>
-                                                <option value="6">Threatened</option>
+                                                <option value="Scared">Scared</option>
+                                                <option value="Anxious">Anxious</option>
+                                                <option value="Insecure">Insecure</option>
+                                                <option value="Weak">Weak</option>
+                                                <option value="Rejected">Rejected</option>
+                                                <option value="Threatened">Threatened</option>
 
                                             </select>
 
@@ -165,12 +165,12 @@
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
                                         <select name="tite-select" id="">
                                                 <option value="0"></option>
-                                                <option value="1">Lonely</option>
-                                                <option value="2">Vulnerable</option>
-                                                <option value="3">Despair</option>
-                                                <option value="4">Guilty</option>
-                                                <option value="5">Depressed</option>
-                                                <option value="6">Hurt</option>
+                                                <option value="Lonely">Lonely</option>
+                                                <option value="Vulnerable">Vulnerable</option>
+                                                <option value="Despair">Despair</option>
+                                                <option value="Guilty">Guilty</option>
+                                                <option value="Depressed">Depressed</option>
+                                                <option value="Hurt">Hurt</option>
                                         </select>
                                         <hr>
                                     </div>
@@ -217,13 +217,13 @@
                                         <h2 class="fs-6">here you can chose the branch of your emotions</h2>
                                         <select name="nojao-select" id="">
                                                 <option value="0"></option>
-                                                <option value="1">Humiliated</option>
-                                                <option value="2">Bitter</option>
-                                                <option value="3">Mad</option>
-                                                <option value="4">Aggressive</option>
-                                                <option value="5">Frustrated</option>
-                                                <option value="6">Distant</option>
-                                                <option value="6">Critical</option>
+                                                <option value="Humiliated">Humiliated</option>
+                                                <option value="Bitter">Bitter</option>
+                                                <option value="Mad">Mad</option>
+                                                <option value="Aggressive">Aggressive</option>
+                                                <option value="Frustrated">Frustrated</option>
+                                                <option value="Distant">Distant</option>
+                                                <option value="Critical">Critical</option>
                                         </select>
                                         <hr>
                                     </div>
@@ -270,10 +270,10 @@
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
                                         <select name="desagrado-select" id="">
                                                 <option value="0"></option>
-                                                <option value="1">Disapproving</option>
-                                                <option value="2">Disappointed</option>
-                                                <option value="3">Awful</option>
-                                                <option value="4">Repelled</option>      
+                                                <option value="Disapproving">Disapproving</option>
+                                                <option value="Disappointed">Disappointed</option>
+                                                <option value="Awful">Awful</option>
+                                                <option value="Repelled">Repelled</option>      
                                         </select>
                                         <hr>
                                     </div>
@@ -319,10 +319,10 @@
                                         <h2 class="fs-6">we will talk about how do you feeling</h2>
                                         <select name="sorpresa-select" id="">
                                                 <option value="0"></option>
-                                                <option value="1">Startled</option>
-                                                <option value="2">Confused</option>
-                                                <option value="3">Amazed</option>
-                                                <option value="4">Excited</option>      
+                                                <option value="Startled">Startled</option>
+                                                <option value="Confused">Confused</option>
+                                                <option value="Amazed">Amazed</option>
+                                                <option value="Excited">Excited</option>      
                                         </select>
                                         
                                         <hr>
@@ -345,17 +345,7 @@
         </div>
     </div>
     </form>
-    <script>
-        function save_color() {
-
-        }
-        function save_branches() {
-
-        }
-        function save() {
-
-        }
-    </script>
+   
     <main style=" margin-left: 850px;">
         <!--imagenes motivadoras para tener un dia bn bonito ¿
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">

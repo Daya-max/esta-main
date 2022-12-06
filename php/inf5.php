@@ -18,10 +18,11 @@
 
 <main>
     <?php require('index.php') ?>
-    <?php require('bdd.php') ?>
+    
+    <!-- <?php require('bdd.php') ?>
     <?php require('addEvent.php') ?>
     <?php require('editEventDate.php') ?>
-    <?php require('editEventTitle.php') ?>
+    <?php require('editEventTitle.php') ?> -->
 
 </main>
 <script src="../js/boton.js"></script>

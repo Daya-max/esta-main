@@ -22,11 +22,12 @@ if (isset($_POST["feli-btn"])) {
     $resultado = mysqli_query($conexion,$sql);
     
     if($resultado){
-        $sql1 = "INSERT INTO events(title,color,descrip) VALUES('$branche','#FFD700','$desc')";
+        $sql1 = "INSERT INTO events(title,color,descrip,startt,userID,emocion) VALUES('$branche','#FFD700','$desc',now(),$user_id,$emocion)";
         $resultado1 = mysqli_query($conexion,$sql1);
         if($resultado1){
             $usuarioo = mysqli_query($con,"SELECT * FROM events");
             $use = mysqli_fetch_array($usuarioo); 
+            header('location:../Amenu.php');
 
             $id_user = $use['id'];
             $title = $use['title'];
@@ -51,11 +52,12 @@ if (isset($_POST["scared-btn"])) {
     $resultado = mysqli_query($conexion,$sql);
 
     if($resultado){
-        $sql1 = "INSERT INTO events(title,color,descrip) VALUES('$branche','#800080','$desc')";
+        $sql1 = "INSERT INTO events(title,color,descrip,startt,userID,emocion) VALUES('$branche','#FFD700','$desc',now(),$user_id,$emocion)";
         $resultado1 = mysqli_query($conexion,$sql1);
         if($resultado1){
             $usuarioo = mysqli_query($con,"SELECT * FROM events");
             $use = mysqli_fetch_array($usuarioo); 
+            header('location:../Amenu.php');
 
             $id_user = $use['id'];
             $title = $use['title'];
@@ -80,11 +82,12 @@ if (isset($_POST["tite-btn"])) {
     $resultado = mysqli_query($conexion,$sql);
 
     if($resultado){
-        $sql1 = "INSERT INTO events(title,color,descrip) VALUES('$branche','#0000ff','$desc')";
+        $sql1 = "INSERT INTO events(title,color,descrip,startt,userID,emocion) VALUES('$branche','#FFD700','$desc',now(),$user_id,$emocion)";
         $resultado1 = mysqli_query($conexion,$sql1);
         if($resultado1){
             $usuarioo = mysqli_query($con,"SELECT * FROM events");
             $use = mysqli_fetch_array($usuarioo); 
+            header('location:../Amenu.php');
 
             $id_user = $use['id'];
             $title = $use['title'];
@@ -108,11 +111,12 @@ if (isset($_POST["nojao-btn"])) {
     $resultado = mysqli_query($conexion,$sql);
 
     if($resultado){
-        $sql1 = "INSERT INTO events(title,color,descrip) VALUES('$branche','#ff0000','$desc')";
+        $sql1 = "INSERT INTO events(title,color,descrip,startt,userID,emocion) VALUES('$branche','#FFD700','$desc',now(),$user_id,$emocion)";
         $resultado1 = mysqli_query($conexion,$sql1);
         if($resultado1){
             $usuarioo = mysqli_query($con,"SELECT * FROM events");
             $use = mysqli_fetch_array($usuarioo); 
+            header('location:../Amenu.php');
 
             $id_user = $use['id'];
             $title = $use['title'];
@@ -135,11 +139,12 @@ if (isset($_POST["desagrado-btn"])) {
     $resultado = mysqli_query($conexion,$sql);
 
     if($resultado){
-        $sql1 = "INSERT INTO events(title,color,descrip) VALUES('$branche','#00ff00','$desc')";
+        $sql1 = "INSERT INTO events(title,color,descrip,startt,userID,emocion) VALUES('$branche','#FFD700','$desc',now(),$user_id,$emocion)";
         $resultado1 = mysqli_query($conexion,$sql1);
         if($resultado1){
             $usuarioo = mysqli_query($con,"SELECT * FROM events");
             $use = mysqli_fetch_array($usuarioo); 
+            header('location:../Amenu.php');
 
             $id_user = $use['id'];
             $title = $use['title'];
@@ -162,11 +167,12 @@ if (isset($_POST["sorpresa-btn"])) {
     $resultado = mysqli_query($conexion,$sql);
 
     if($resultado){
-        $sql1 = "INSERT INTO events(title,color,descrip) VALUES('$branche','#ff0080','$desc')";
+        $sql1 = "INSERT INTO events(title,color,descrip,startt,userID,emocion) VALUES('$branche','#FFD700','$desc',now(),$user_id,$emocion)";
         $resultado1 = mysqli_query($conexion,$sql1);
         if($resultado1){
             $usuarioo = mysqli_query($con,"SELECT * FROM events");
             $use = mysqli_fetch_array($usuarioo); 
+            header('location:../Amenu.php');
 
             $id_user = $use['id'];
             $title = $use['title'];

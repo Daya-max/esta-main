@@ -14,12 +14,33 @@
     <script src="https://kit.fontawesome.com/92927bfbd1.js" crossorigin="anonymous"></script>
 
 </head>
-<?php require('style_log.php') ?>
-</body>
+
+<body>
+    <nav>
+    <?php require('style_log.php') ?>
+    </nav>
+
 <main>
-    <?php require('inf5.php')?>
-
-
+<div class="container">
+  <div class="row">
+    <div class="col">
+    <?php require_once('evento.php');?>
+    </div>
+    <div class="col">
+     <?php require_once('index.php');?>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+    </div>
+  </div>
+</div>
+   
+    <?php require_once('evento.php');?>
+    
+    
 </main>
 <script src="../js/scripts.js"></script>
 <script src="../js/menu.js"></script>
